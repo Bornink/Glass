@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.myglass" name="Glassrepo" version="0.0.1" provider-name="Bornink">
+	<extension point="xbmc.addon.repository" name="Glassrepo">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/bornink/repository.myglass/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/bornink/repository.myglass/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/bornink/repository.myglass/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">kodi repo</summary>
+		<description lang="en">kodi repository glass</description>
+		<genre>comedy,kids,movies,music,radio,sports,tvshows,wizard,dutch,uk,usa</genre>
+	</extension>
+</addon>
